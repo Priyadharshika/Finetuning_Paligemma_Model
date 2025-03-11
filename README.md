@@ -47,9 +47,9 @@
 
 | Metrics               | Base Model | Fine-tuned Model|
 |-----------------------|-----------|------------------|
-| **Edit Distance Score** | 100.4    | 64.3            |
-| **ROUGE Score**        | 0.6       | 0.7             |
-| **BLEU Score**         | 0.2       | 0.4             |
+| **Edit Distance Score** | 100.4    | **64.3** (lesser the better)  |
+| **ROUGE Score**        | 0.6       | **0.7** (higher the better)   |
+| **BLEU Score**         | 0.2       | **0.4** (higher the better)   |
 
 **Inference Results**
 
