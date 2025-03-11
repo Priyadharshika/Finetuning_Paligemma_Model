@@ -21,3 +21,5 @@ wandb==0.19.8
 torch==2.5.1+cu121
 numpy==1.26.4
 huggingface_hub==0.29.0
+rouge_score: 0.1.2
+scikit-learn: 1.2.2
