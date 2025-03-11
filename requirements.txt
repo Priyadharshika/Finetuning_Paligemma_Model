@@ -19,6 +19,5 @@ transformers==4.49.0
 vega-datasets==0.9.0
 wandb==0.19.8
 torch==2.5.1+cu121
-torch==2.5.1+cu121
 numpy==1.26.4
 huggingface_hub==0.29.0
