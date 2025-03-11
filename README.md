@@ -34,22 +34,35 @@
 
 🔧 Hyperparameters
 
-    |  Parameter                |  Value        |
-    |---------------------------|---------------|
-    | Learning Rate             |   100.4       |   
-    | Batch Size                |    0.6        |  
-    | Epochs                    |    30         | 
+ 
+
+| Parameter       | Value  |
+|----------------|--------|
+| **Learning Rate** | 100.4  |
+| **Batch Size**    | 0.6    |
+| **Epochs**        | 30     |
+
   
 📊 Results
 
     **Performance Metrics:**
     
-    | Metrics                   | Base Model    | Fine-tuned Model     |
-    |---------------------------|---------------|----------------------|
-    | Edit_distance_score       |   100.4       |      64.3            |
-    | rouge_score               |    0.6        |      0.7             |
-    | bleu_score                |   0.2         |      0.4             |
-  
+   ## Model Evaluation Metrics
+
+| Metrics               | Base Model | Fine-tuned Model |
+|-----------------------|-----------|------------------|
+| **Edit Distance Score** | 100.4     | 64.3             |
+| **ROUGE Score**        | 0.6       | 0.7              |
+| **BLEU Score**         | 0.2       | 0.4              |
+
+
+## Inference Results
+
+| Input Image | True Text | Predicted Text |
+|-------------|----------|---------------|
+| ![image](path/to/image) | `{'total': {'total_price': '91000', 'cashprice': '91000'}, 'menu': [{'price': '17500', 'nm': 'J.STB PROMO'}, {'price': '46000', 'nm': 'Y.B.BAT'}, {'price': '27500', 'nm': 'Y.BASO PROM'}]}` | `{'total': {'total_price': '91000', 'cashprice': '91000'}, 'menu': [{'price': '17500', 'nm': 'J.SIB PROMO'}, {'price': '45000', 'nm': 'V.B.BAT'}, {'price': '27500', 'nm': 'Y.BASC PROM'}]}` |
+
+
     **Inference Results:**
     
     | Input Image                 | True text     | Predicted text       |
