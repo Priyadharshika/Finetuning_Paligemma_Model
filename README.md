@@ -21,8 +21,11 @@
 🚀 Features
 
 ✔️ Fine-tuning Paligemma Model using QLoRA for efficiency
+
 ✔️ Custom preprocessing and tokenization
+
 ✔️ Training on hugging face dataset
+
 ✔️ Evaluation & performance metrics
 
 🧠 Model
