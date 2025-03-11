@@ -31,16 +31,18 @@ fine-tuned Paligemma-model using QLoRA to reduce memory usage.
   Epochs	3
   
 📊 Results
-📌 Performance Metrics
+  Performance Metrics
+
   Edit_distance score - base model(), fine-tuned-model()
   rouge_score 
   bleu_score
-  
-📈 Training Curves
-Inference
+
+Inference Results
+
 | Input Image                 | True text     | Predicted text      |
 |-----------------------------|---------------|----------------------|
-| "image"                     | json          | json                |
+| "image"                     | {'total': {'total_price': '91000', 'cashprice': '91000'}, 'menu': [{'price': '17500', 'nm': 'J.STB PROMO'}, {'price': '46000', 'nm': 'Y.B.BAT'}, {'price': '27500', 'nm': 'Y.BASO PROM'}]}          | {'total': {'total_price': '91000', 'cashprice': '91000'}, 'menu': [{'price': '17500', 'nm': 'J.SIB PROMO'}, {'price': '45000', 'nm': 'V.B.BAT'}, {'price': '27500', 'nm': 'Y.BASC PROM'}]}
+                |
  
   
 
